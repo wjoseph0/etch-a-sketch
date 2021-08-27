@@ -4,15 +4,20 @@ body {
 
 #container {
   display: grid;
-  grid-template-columns: repeat(16, 1fr);
-  grid-template-rows: repeat(16, 1fr);
   grid-gap: 0px;
-  width: 960px;
-  height: 960px;
+  width: 500px;
+  height: 500px;
   margin: 0 auto;
-  background-color: darkgoldenrod;
+  background-color: white;
 }
 
 #container > div {
   background-color: white;
+}
+
+#resetButtonHolder {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
