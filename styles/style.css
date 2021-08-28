@@ -1,5 +1,5 @@
 body {
-  background-color: black;
+  background-color: skyblue;
 }
 
 #container {
@@ -9,6 +9,8 @@ body {
   height: 500px;
   margin: 0 auto;
   background-color: white;
+  border: 50px solid red;
+  border-radius: 30px;
 }
 
 #container > div {
@@ -21,3 +23,19 @@ body {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
+#resetButton {
+  width: 500px;
+  height: 50px;
+  background-color: white;
+  border-radius: 20px;
+  border: none;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+}
+
+#resetButton:hover {
+  background-color: pink;
+  transform: scale(1.05);
+}
+
